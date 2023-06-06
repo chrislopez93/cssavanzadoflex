@@ -3,3 +3,17 @@
     padding: 0;
 }
 
+.main {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.networking{
+    width: 350px;
+}
+
+.contact{
+    
+}
