@@ -13,10 +13,27 @@
 
 
 /*Start contact boxes*/
-
 .aside_contact_container{
     flex-direction: column;
 }
+
+.contact_container_button{
+    border-top: 1px solid #BEC1BB;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_item_button{
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color:#A491D2;
+    color: #FFF;
+}
+
 
 .contact_container{
     display: flex;
