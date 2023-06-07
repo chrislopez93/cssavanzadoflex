@@ -3,17 +3,55 @@
     padding: 0;
 }
 
-.main {
+.flex_class {
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: flex-end;
 }
 
 .networking{
     width: 350px;
 }
 
-.contact{
-    
+
+.contact_container{
+    display: flex;
+
+    width: 250px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #E8EBE4;
+}
+
+.contact_item_portrait{
+    background-color: red;
+    margin-right: 15px;
+}
+
+.contact_item_text{
+    justify-content: end;
+    align-items: center;
+}
+
+.contact_item_title{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.contact_item_paragrph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+.hand{
+    background-color: blue;
+}
+
+/*OK*/
+.portrait{
+    border-radius: 100%;
+    width: 55px;
+    display: inline-block;
 }
