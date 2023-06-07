@@ -101,12 +101,35 @@ width: 35px;
 }
 /*End contact boxes*/
 
-.chat_area_container{
+.chat_container_area{
     background-color: #E8EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .networking{
-    width: 350px;
+    width: 280px;
+}
+
+.chat_item_area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+}
+
+.chat_item_title{
+    font-family: 'Roboto';
+    font-size: 45px;
+}
+
+.chat_item_paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*OK*/
