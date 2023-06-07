@@ -7,7 +7,6 @@
     display: flex;
 }
 
-
 /*Start contact boxes*/
 /*Online contact box start*/
 .contact_item_portrait_online{
@@ -31,6 +30,7 @@ width: 35px;
 .contact_item_paragrph_online{
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
+    
 }
 
 .list_item_online{
@@ -68,6 +68,16 @@ width: 35px;
     color: #FFF;
 }
 
+.contact_item_button:hover{
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 180px;
+    height: 50px;
+    border-color: #CDC3E6;
+    background-color:#CDC3E6;
+    color: #FFF;
+}
+
 .contact_container{
     display: flex;
     width: 250px;
@@ -88,6 +98,7 @@ width: 35px;
 
 .contact_item_text{
     padding-right: 10px;
+    align-items: center;
 }
 
 .contact_item_title{
