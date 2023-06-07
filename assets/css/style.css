@@ -5,8 +5,6 @@
 
 .flex_class {
     display: flex;
-    /* justify-content: center; */
-    align-items: flex-end;
 }
 
 .networking{
@@ -14,9 +12,15 @@
 }
 
 
+/*Start contact boxes*/
+
+.aside_contact_container{
+    flex-direction: column;
+}
+
 .contact_container{
     display: flex;
-
+    
     width: 250px;
     height: 75px;
     align-items: center;
@@ -43,7 +47,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-
+/*End contact boxes*/
 
 .hand{
     background-color: blue;
