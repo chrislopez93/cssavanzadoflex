@@ -7,15 +7,9 @@
     display: flex;
 }
 
-.networking{
-    width: 350px;
-}
-
 
 /*Start contact boxes*/
-
 /*Online contact box start*/
-
 .contact_item_portrait_online{
     margin-right: 10px;
     margin-left: 15px;
@@ -51,11 +45,6 @@ width: 35px;
     color: #828485;
     margin-left: 15px;
 }
-
-/* .contact_container_online li i{
-
-} */
-
 /*Online contact box end*/
 
 .aside_contact_container{
@@ -74,7 +63,7 @@ width: 35px;
     font-size: 16px;
     width: 180px;
     height: 50px;
-    border: none;
+    border-color: #A491D2;
     background-color:#A491D2;
     color: #FFF;
 }
@@ -114,6 +103,10 @@ width: 35px;
 
 .chat_area_container{
     background-color: #E8EBE4;
+}
+
+.networking{
+    width: 350px;
 }
 
 /*OK*/
