@@ -13,6 +13,51 @@
 
 
 /*Start contact boxes*/
+
+/*Online contact box start*/
+
+.contact_item_portrait_online{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.portrait_online{
+border-radius: 100%;
+width: 35px;
+}
+.contact_item_text_online{
+    padding-right: 10px;
+}
+
+.contact_item_title_online{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.contact_item_paragrph_online{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.list_item_online{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;  
+    /* background-color: red;  */
+    width: 100px;
+}
+
+.list_item_online li i{
+    color: #828485;
+    margin-left: 15px;
+}
+
+/* .contact_container_online li i{
+
+} */
+
+/*Online contact box end*/
+
 .aside_contact_container{
     flex-direction: column;
 }
@@ -34,7 +79,6 @@
     color: #FFF;
 }
 
-
 .contact_container{
     display: flex;
     width: 250px;
@@ -51,12 +95,9 @@
 .portrait{
     border-radius: 100%;
     width: 55px;
-    display: inline-block;
 }
 
 .contact_item_text{
-    justify-content: end;
-    align-items: center;
     padding-right: 10px;
 }
 
