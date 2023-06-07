@@ -20,22 +20,27 @@
 
 .contact_container{
     display: flex;
-    
     width: 250px;
     height: 75px;
     align-items: center;
-    justify-content: center;
-    border-top: 1px solid #E8EBE4;
+    border-top: 1px solid #BEC1BB;
 }
 
 .contact_item_portrait{
-    background-color: red;
     margin-right: 15px;
+    margin-left: 20px;
+}
+
+.portrait{
+    border-radius: 100%;
+    width: 55px;
+    display: inline-block;
 }
 
 .contact_item_text{
     justify-content: end;
     align-items: center;
+    padding-right: 10px;
 }
 
 .contact_item_title{
@@ -49,13 +54,8 @@
 }
 /*End contact boxes*/
 
-.hand{
-    background-color: blue;
+.chat_area_container{
+    background-color: #E8EBE4;
 }
 
 /*OK*/
-.portrait{
-    border-radius: 100%;
-    width: 55px;
-    display: inline-block;
-}
