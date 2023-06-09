@@ -81,10 +81,11 @@ width: 35px;
 
 .contact_container{
     display: flex;
-    width: 250px;
+    width: 280px;
     height: 75px;
     align-items: center;
     border-top: 1px solid #BEC1BB;
+    
 }
 
 .contact_item_portrait{
@@ -95,6 +96,7 @@ width: 35px;
 .portrait{
     border-radius: 100%;
     width: 55px;
+    
 }
 
 .contact_item_text{
