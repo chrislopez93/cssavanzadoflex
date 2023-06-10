@@ -16,6 +16,7 @@
 
 .portrait_online{
 border-radius: 100%;
+border: 1px solid #BEC1BB;
 width: 35px;
 }
 .contact_item_text_online{
@@ -95,8 +96,8 @@ width: 35px;
 
 .portrait{
     border-radius: 100%;
-    width: 55px;
-    
+    border: 1px solid #BEC1BB;
+    width: 55px; 
 }
 
 .contact_item_text{
